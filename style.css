@@ -1,0 +1,125 @@
+* {
+	background: #E5E5E5;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+.logo {
+	margin-left: 40px;
+	padding-top: 40px;
+	width: 120px;
+}
+
+main {
+	background: #E5E5E5;
+	border: none;
+	display: flex;
+	margin-bottom: 50px;
+	margin-left: 80px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+.text-area {
+	border: none;
+	color: #0A3871;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+.informacao {
+	background: #495057;
+	background-repeat: no-repeat;
+	margin-left: 24px;
+	width: 235px;
+	heigth: 18px;
+	font-size: 12px;
+	line-height: 150%;
+	color: #495057;
+	opacity: 0.8;
+	line-height: 18px;
+}
+
+.placeholder {
+	color: #0A3871;
+}
+	.text-area: focus{
+		outline: none;
+		width: 680px;
+		heigth: 48px;
+		left: 240px;
+		top: 168px;
+		font-size: 32px;
+		line-height: 150%;
+}
+
+.mensagem {
+	background: #FFFFFF;
+	background-image: url(imagens/Boneco.png);
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 32px;
+	color: #0A3871;
+	margin-left: 300px;
+	position: absolute;
+}
+
+.mensagem: focus {
+	outline: none;
+}
+
+.botoes {
+	display: flex;
+	margin-top: 18px;
+}
+
+.btn-encriptar {
+	background-color: #0A3871;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	color: white;
+	cursor: pointer;
+	height: 67px;
+	width: 328px;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+}
+
+.btn-desencriptar {
+	margin-left: 24px;
+	background: #D8DFE8;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	color: #0A3871;
+	cursor: pointer;
+	height: 67px;
+	width: 328px;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center
+}
+
+.btn-copiar {
+	margin-left: 308px;
+	margin-top: 490px;
+	width: 328px;
+	height: 67px;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	color: #0A3871;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+}
+
+footer {
+	color: #0A3871;
+	font-size: 16px;
+	text-align: center;
+	padding: 40px 0;
+	opacity: 0.8;
+}
